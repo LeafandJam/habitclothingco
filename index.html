@@ -2,52 +2,39 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Habit Clothing Co.</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
+  <title>CodePen - Adidas &quot;We&#39;re Coming Soon&quot; Landing Page Clone</title>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<!--Header-->
-<header class="img-box">
-  <div style = "position:relative;right:110px;top:300px;">
-  <h1 class="title">Habit</h1>
-  </div>
-
-  <div style = "position:relative;right:10px;top:400px;">
-    <h3 class="title">Clothing Co.</h3>
-    </div>
-
-  <div class="scroll"></div>
-</header>
-<!--Content-->
-<section class="content">
-  <article>
-    <h2>shirt</h2>
-    <hr/>
-    <p> The cartoon collection consectetur adipisicing elit. Est harum dolore iusto excepturi neque obcaecati inventore, facilis eveniet, sequi dolor, ut amet quibusdam nihil cupiditate molestiae veritatis similique sed sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est harum dolore iusto excepturi neque obcaecati inventore, facilis eveniet, sequi dolor, ut amet quibusdam nihil cupiditate molestiae veritatis similique sed sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est harum dolore iusto excepturi neque obcaecati inventore, facilis eveniet, sequi dolor, ut amet quibusdam nihil cupiditate molestiae veritatis similique sed sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est harum dolore iusto excepturi neque obcaecati inventore, facilis eveniet, sequi dolor, ut amet quibusdam nihil cupiditate molestiae veritatis similique sed sint!</p>
-    <hr/>
-  </article>
-</section>
-<!--Clothes		-->
-<div class="clothes">
-  <figure><img src="https://github.com/LeafandJam/habitclothingco/blob/main/Screenshot%202023-10-24%20at%2010.59.44.png?raw=true"/>
-
-  <script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-
-<stripe-buy-button
-  buy-button-id="buy_btn_1O4YEGCctoO7kPrc585b5Suo"
-  publishable-key="pk_test_51L5K4QCctoO7kPrcZfeIEF9hClMNfTFkBfvq0fdJzgLUQY3kOPEo06YAU93umjThDsLsmAGYJ7GdpOELX3H10GHI00hnKaHlWo"
->
-</stripe-buy-button>
-
-
+<div class="mobile-container">
+  <header>
+    <section class="hero-banner">
+      <div class="logo-wrapper">
+        <img src="https://assets.codepen.io/6060109/2560px-Adidas_Logo+1.png" alt="Adidas logo.">
+      </div>
+      <div class="hero-image"></div>
+    </section>
+  </header>
+  <main>
+    <article class="text-info">
+      <h2>We're</h2>
+      <h2>Coming<br>Soon</h2>
+      <p>Hello friends! We are currently building our new sports and comfort clothing store. Add your email address below to stay up-to-date with announcements and our launch proposals.</p>
+      <section class = "email-signup">
+        <form>
+          <input class="email-input" type="email" required placeholder="Email Address" name="email-address">
+          <input class="email-submit" value="Go" type="submit" text="Go" for="email-address"></input>
+        </form>
+      </section>
+    </article>
+  </main>
+</div>
+<div class="hero-image-desktop">
+  <img src="https://assets.codepen.io/6060109/athlete-big.png" alt="Femail athlete squinting towards the camera.">
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
-
+  
 </body>
 </html>
