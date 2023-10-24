@@ -24,7 +24,7 @@
 :root {
     --theme-color-black: #333333; /* rgba(51, 51, 51, 1) */
     --theme-color-brown: #423A3A; 
-    --theme-color-red: #CD3A24;
+    --theme-color-red: #32896b;
     --theme-color-white: #FEFFFF; /* rgba(254, 255, 255, 1) */
 }
   
@@ -68,13 +68,13 @@ input {
     
     .logo-wrapper img {
         display: block;
-        height: 2.5rem;
+        height: 12.5rem;
         margin: 0 auto;
         width: auto;
     }
 
 .hero-banner .hero-image {
-    background-image: url(https://assets.codepen.io/6060109/athlete-girl.png);
+    background-image: url(https://github.com/LeafandJam/habitclothingco/blob/main/blur%20tress.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
